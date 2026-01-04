@@ -19,9 +19,14 @@ set(groot, 'defaultLegendInterpreter', 'latex'); % Use LaTeX for legend
 set(groot, 'defaultLineLineWidth', 1.2); % Line width for plots
 set(groot, 'defaultLineMarkerSize', 3); % Marker size for plots
 
+% % Line + marker defaults
+% set(groot, 'defaultLineLineStyle', '-');   % Solid line
+% set(groot, 'defaultLineMarker', 'o');      % Circle marker
+
 % Axes settings
 set(groot, 'defaultAxesBox', 'off'); % Remove the box around the plot
 set(groot, 'defaultAxesTickDir', 'out'); % Ticks point outward
+set(groot, 'defaultAxesYMinorTick', 'off'); % Log-scale tick control
 set(groot, 'defaultAxesXGrid', 'off'); % No grid on X-axis
 set(groot, 'defaultAxesYGrid', 'off'); % No grid on Y-axis
 
